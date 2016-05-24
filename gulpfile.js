@@ -25,14 +25,14 @@ var path = {
     src: {
         html: 'src/*.html',
         js: 'src/js/*.js',
-        style: 'src/style/*.scss',
+        style: 'src/style/*.sass',
         img: 'src/img/*.*',
         fonts: 'src/fonts/**/*.*'
     },
     watch: {
         html: 'src/**/*.html',
         js: 'src/js/**/*.js',
-        style: 'src/style/**/*.scss',
+        style: 'src/style/**/*.sass',
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },

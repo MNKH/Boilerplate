@@ -1,0 +1,15 @@
+@import bourbon/bourbon
+
+$phone-width: 1px
+$tablet-width: 768px
+$desktop-width: 1170px
+
+=phone
+  @media (min-width: $phone-width) and (max-width: $tablet-width - 1px)
+    @content
+=tablet
+  @media (min-width: $tablet-width) and (max-width: $desktop-width - 1px)
+    @content
+=desktop
+  @media (min-width: $desktop-width)
+    @content
